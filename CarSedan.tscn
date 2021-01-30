@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Imports/paintRed.material" type="Material" id=1]
 [ext_resource path="res://Imports/window.material" type="Material" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://Imports/lightFront.material" type="Material" id=5]
 [ext_resource path="res://Imports/plastic.material" type="Material" id=6]
 [ext_resource path="res://Imports/_defaultMat.material" type="Material" id=7]
+[ext_resource path="res://CarSedanM.gd" type="Script" id=8]
 
 [sub_resource type="ArrayMesh" id=1]
 resource_name = "body"
@@ -114,6 +115,21 @@ surfaces/1 = {
 extents = Vector3( 1, 1, 1.14631 )
 
 [node name="sedan" type="KinematicBody"]
+script = ExtResource( 8 )
+
+[node name="CanvasL" type="CanvasLayer" parent="."]
+layer = 0
+
+[node name="Patente" type="RichTextLabel" parent="CanvasL"]
+anchor_right = 0.046
+anchor_bottom = 0.022
+margin_right = 33.12
+margin_bottom = 0.04
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "PRUEBA"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="tmpParent" type="Spatial" parent="."]
 
@@ -156,3 +172,5 @@ material/1 = null
 [node name="CollisionShape" type="CollisionShape" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.66597, 0, 0, 0, 1, 0, 0.848148, 0 )
 shape = SubResource( 3 )
+[connection signal="mouse_entered" from="." to="." method="_on_sedan_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_sedan_mouse_exited"]
