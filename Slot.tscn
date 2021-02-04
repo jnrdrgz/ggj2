@@ -9,5 +9,5 @@ extents = Vector3( 1, 1, 0.706904 )
 script = ExtResource( 1 )
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
-transform = Transform( 0.407375, 0, 0, 0, 0.0740551, 0, 0, 0, 1.7829, 0, 0, 0 )
+transform = Transform( 0.407375, 0, 0, 0, 0.0740551, 0, 0, 0, 1.10993, 0, 0, 0 )
 shape = SubResource( 1 )

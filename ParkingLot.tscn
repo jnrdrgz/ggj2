@@ -26,43 +26,43 @@ shape = SubResource( 3 )
 [node name="Slots" type="Spatial" parent="."]
 
 [node name="Slot1" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.81314, 0.317677, 1.32177 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.81314, 0.317677, 0.856829 )
 
 [node name="Slot2" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91772, 0.317677, 1.32177 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91772, 0.317677, 0.856829 )
 
 [node name="Slot3" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01769, 0.317677, 1.32177 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01769, 0.317677, 0.856829 )
 
 [node name="Slot4" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.122273, 0.317677, 1.32177 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.122273, 0.317677, 0.856829 )
 
 [node name="Slot5" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.814143, 0.317677, 1.32177 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.814143, 0.317677, 0.856829 )
 
 [node name="Slot6" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.70956, 0.317677, 1.32177 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.70956, 0.317677, 0.856829 )
 
 [node name="Slot7" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.61486, 0.317677, 1.32177 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.61486, 0.317677, 0.880934 )
 
 [node name="Slot8" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.81314, 0.317677, -1.37657 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.81314, 0.317677, -0.912729 )
 
 [node name="Slot9" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91772, 0.317677, -1.37657 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91772, 0.317677, -0.912729 )
 
 [node name="Slot10" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01769, 0.317677, -1.37657 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.01769, 0.317677, -0.912729 )
 
 [node name="Slot11" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.122273, 0.317677, -1.37657 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.122273, 0.317677, -0.912729 )
 
 [node name="Slot12" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.814143, 0.317677, -1.37657 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.814143, 0.317677, -0.912729 )
 
 [node name="Slot13" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.70956, 0.317677, -1.37657 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.70956, 0.317677, -0.912729 )
 
 [node name="Slot14" parent="Slots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.61486, 0.317677, -1.37657 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.61486, 0.317677, -0.912729 )

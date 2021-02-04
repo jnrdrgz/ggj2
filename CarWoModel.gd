@@ -1,5 +1,8 @@
 extends KinematicBody
 
+onready var police_car = preload("res://CarPoliceModel.tscn") 
+onready var sedan_car = preload("res://CarSedanModel.tscn") 
+
 var patente
 var rng = RandomNumberGenerator.new()
 
@@ -38,12 +41,20 @@ func _physics_process(delta):
 func _ready():
 	rng.randomize()
 	patente = random_patente()
-	$CanvasL/Patente.text = patente	
+	$Patente/PatenteText.text = patente	
 
-func _on_sedan_mouse_entered():
-	var pat = $CanvasL/Patente
+func set_model(model):
+	if model == "sedan":
+		var m = sedan_car.instance()
+		add_child(m)
+	if model == "police":
+		var m = police_car.instance()
+		add_child(m)
+
+func _on_Spatial_mouse_entered():
+	var pat = $Patente/PatenteText
 	pat.visible = true
 	pat.set_global_position(get_viewport().get_mouse_position()) 
-	
-func _on_sedan_mouse_exited():
-	$CanvasL/Patente.visible = false	
+
+func _on_Spatial_mouse_exited():
+	$Patente/PatenteText.visible = false 

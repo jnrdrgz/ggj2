@@ -170,7 +170,7 @@ material/0 = null
 material/1 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
-transform = Transform( 1, 0, 0, 0, 0.66597, 0, 0, 0, 1, 0, 0.848148, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
 shape = SubResource( 3 )
 [connection signal="mouse_entered" from="." to="." method="_on_sedan_mouse_entered"]
 [connection signal="mouse_exited" from="." to="." method="_on_sedan_mouse_exited"]

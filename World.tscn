@@ -17,7 +17,7 @@ script = ExtResource( 5 )
 [node name="Lots" type="Spatial" parent="."]
 
 [node name="Lot" parent="Lots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19493, 0, 7.835 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.195, 0, 7.41636 )
 
 [node name="Lot3" parent="Lots" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 17.8 )
@@ -35,13 +35,13 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.62984, 0, 7.835 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.87077, 0, 17.8 )
 
 [node name="Lot8" parent="Lots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.186214, 0, -2.156 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.186214, 0, -2.61118 )
 
 [node name="Lot9" parent="Lots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.1832, 0, -11.7767 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.2396, 0, -12.5858 )
 
 [node name="Lot10" parent="Lots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.1832, 0, -2.15578 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.1832, 0, -2.57143 )
 
 [node name="Lot11" parent="Lots" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.41619, 0, -11.777 )
@@ -50,23 +50,16 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.41619, 0, -11.777 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.74503, 0, -2.156 )
 
 [node name="Lot2" parent="Lots" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.231598, 0, -11.777 )
-
-[node name="InterpolatedCamera" type="InterpolatedCamera" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.65937, 2.78642, 7.15438 )
-fov = 81.484
-target = NodePath("../KinematicBody/FollowNode")
-speed = 5.0
-enabled = true
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.231598, 0, -12.6035 )
 
 [node name="KinematicBody" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 0.996568, -0.0827734, 0, 0.0827734, 0.996568, 2.6374, 1.306, 1.75054 )
+transform = Transform( 1, 0, 0, 0, 0.996568, -0.0827734, 0, 0.0827734, 0.996568, 2.6374, 1.306, -0.722067 )
 
 [node name="FollowNode" type="Spatial" parent="KinematicBody"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.64, 1.631 )
 
 [node name="sedan" parent="." instance=ExtResource( 3 )]
-transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 1.95422, 0.242618, -0.872221 )
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 1.95422, 3.10194, 1.73093 )
 
 [node name="Path" type="Path" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.258, 1, -3.314 )
